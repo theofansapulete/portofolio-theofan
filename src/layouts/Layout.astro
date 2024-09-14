@@ -9,13 +9,16 @@ import Navbar from 'src/components/Navbar'
 		<meta name='description' content='Astro description' />
 		<meta name='viewport' content='width=device-width' />
 		<meta name='generator' content={Astro.generator} />
-		<link rel='icon' type='image/svg+xml' href='/icons/logo.webp' />
+		<link rel='icon' type='image/svg+xml' href='/icons/logo.svg' />
 		<meta
 			name='description'
-			content='Personal site of Jeheskiel Ventioky Sunloy,an Informatics Engineering student at Satya Wacana Christian University and a passionate software developer from Ambon, Indonesia.'
+			content='Personal site of Theofan Sapulete,an Informatics Engineering student at Satya Wacana Christian University and a passionate software developer from Kupang, Indonesia.'
 		/>
-		<title>Jeheskiel Sunloy</title>
-		<meta name="google-site-verification" content="5skRVPJa-Bf6sKxHd90PzRxJyGgH-Z-d06oA2-Jxvfo" />
+		<title>Theofan Sapulete</title>
+		<meta
+			name='google-site-verification'
+			content='5skRVPJa-Bf6sKxHd90PzRxJyGgH-Z-d06oA2-Jxvfo'
+		/>
 	</head>
 	<body>
 		<main
@@ -28,24 +31,24 @@ import Navbar from 'src/components/Navbar'
 	</body>
 </html>
 <script is:inline>
-const theme = (() => {
-	if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
-		return localStorage.getItem('theme')
-	}
-	if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+	const theme = (() => {
+		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+			return localStorage.getItem('theme')
+		}
+		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+			return 'dark'
+		}
 		return 'dark'
-	}
-	return 'dark'
-})()
+	})()
 
-if (theme === 'light') {
-	document.documentElement.classList.remove('dark')
-	document.documentElement.style.colorScheme = 'light'
-} else {
-	document.documentElement.classList.add('dark')
-	document.documentElement.style.colorScheme = 'dark'
-}
-window.localStorage.setItem('theme', theme)
+	if (theme === 'light') {
+		document.documentElement.classList.remove('dark')
+		document.documentElement.style.colorScheme = 'light'
+	} else {
+		document.documentElement.classList.add('dark')
+		document.documentElement.style.colorScheme = 'dark'
+	}
+	window.localStorage.setItem('theme', theme)
 </script>
 <style is:global>
 	html,

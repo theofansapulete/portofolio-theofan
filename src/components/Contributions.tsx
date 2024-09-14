@@ -46,7 +46,7 @@ const Contributions = () => {
 				<div className='text-gray-500 dark:text-gray-400 flex flex-col items-center justify-center'>
 					<div className='hidden sm:flex'>
 						<GitHubCalendar
-							username='jeheskielSunloy77'
+							username='theofansapulete'
 							blockMargin={6}
 							blockSize={18}
 							theme={{
@@ -62,7 +62,7 @@ const Contributions = () => {
 					</div>
 					<div className='flex px-4 sm:hidden'>
 						<GitHubCalendar
-							username='jeheskielSunloy77'
+							username='theofansapulete'
 							blockMargin={6}
 							blockSize={18}
 							transformData={selectLastHalfYear}

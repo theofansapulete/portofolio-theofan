@@ -362,7 +362,7 @@ const IntroTypewriter = () => {
 					<h2 className='text-4xl'>
 						Im
 						<span className='ml-2 underline decoration-cyan-500 underline-offset-4'>
-							Jeheskiel Sunloy
+							Theofan Sapulete
 						</span>
 					</h2>
 
@@ -378,27 +378,31 @@ const IntroTypewriter = () => {
 									typewriter
 										.start()
 										.typeString('<span class="text-cyan-500">I am </span>')
-										.typeString('an IT Student.')
+										.typeString('a Bachelor of Informatics Engineering')
 										.pauseFor(1500)
-										.deleteChars(13)
-										.typeString(' Full Stack Developer.')
+										.deleteChars(35)
+										.typeString('Network Engineer')
 										.pauseFor(1500)
-										.deleteChars(21)
-										.typeString(' Mobile Developer.')
+										.deleteChars(16)
+										.typeString('System Analyst')
+										.pauseFor(1500)
+										.deleteChars(14)
+										.typeString('IT Project Manager')
 										.pauseFor(1500)
 										.deleteChars(18)
-										.typeString(' Gopher.')
-										.pauseFor(1500)
+										.start()
 								}}
 							/>
 						)}
 					</div>
 				</div>
 				<p className='text-md text-gray-700 dark:text-gray-200'>
-					Hey thank you for passing by, my fullname is Jeheskiel Ventioky Sunloy but
-					my friends call me Jay. I am a student majoring Informatics Engineering at
-					Satya Wacana Christian University. I am currently 21 years old and im
-					hailing from Ambon, Indonesia
+					I am Theofan Sapulete, commonly known as Tyo among friends. I was born and
+					raised in Kupang, East Nusa Tenggara province.I am a fresh graduate with a
+					Bachelor's degree in Informatics Engineering from Satya Wacana Christian
+					University, Salatiga. I am currently 24 years old and have extensive
+					experience in IT and management, gained from various projects and work
+					opportunities.
 				</p>
 				<a href='#about'>
 					<ButtonSpecial>EXPLORE</ButtonSpecial>

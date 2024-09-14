@@ -10,8 +10,8 @@ const Footer = () => {
 			className='flex flex-col items-center justify-between px-6 py-2 sm:flex-row'
 		>
 			<img
-				src='/icons/logo.webp'
-				className='rounded w-14 h-14 dark:grayscale'
+				src='/icons/logo.svg'
+				className='rounded w-14 h-14'
 				alt='logo-footer'
 				loading='lazy'
 			/>

@@ -26,8 +26,8 @@ export default function ModalCv({ toggleModal, isClosing }: ModalCvProps) {
 				className='w-full h-[80vh]'
 				src={
 					isEnglish
-						? 'https://drive.google.com/file/d/1vcc4JOOs2O_wKsfI82Jdt67xdyqtgDhC/preview'
-						: 'https://drive.google.com/file/d/1rJMMV74ujvS8pQcRxIIb7-NmuTx3bjLI/preview'
+						? 'https://drive.google.com/file/d/1THoSLxP80qgnNLXa46rWVAwN1pYoQ9ra/preview'
+						: 'https://drive.google.com/file/d/1THoSLxP80qgnNLXa46rWVAwN1pYoQ9ra/preview'
 				}
 				allow='autoplay'
 			></iframe>

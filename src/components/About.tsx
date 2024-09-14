@@ -49,17 +49,13 @@ const Text = () => (
 				me a bit
 			</h1>
 			<p className='text-lg text-gray-700 dark:text-gray-200'>
-				My
-				<span className='mx-1 font-semibold text-cyan-500 w-fit'>passion</span>
-				is programing, i've been seriously started to jump into the programing world
-				about a year ago and i am absolutly loving it. My weapon of choice is
-				<span className='mx-1 font-semibold text-cyan-500'>Typescript and Go.</span>
-				I am currently married to
-				<span className='mx-1 font-semibold text-cyan-500'>ReactJS</span> but i also
-				like to work with other frameworks such as
-				<span className='mx-1 font-semibold text-cyan-500'>
-					Express, React Native and Next.js
-				</span>
+				I've got a solid foundation in programming from all the projects I've worked
+				on. I specialize in Network Engineering, especially with Cisco and Linux.
+				I'm also pretty good at data mining using Python, SQL, and Excel. When it
+				comes to teamwork, I'm great at collaborating, communicating effectively,
+				and always working towards our shared goals with high efficiency and
+				quality. I truly believe that good teamwork is crucial for any project's
+				success, and I'm always committed to giving my best in every situation.
 			</p>
 		</div>
 	</motion.div>

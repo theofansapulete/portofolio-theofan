@@ -15,33 +15,33 @@ const Timeline = () => (
 					Timeline
 				</motion.div>
 			</h1>
-			<ol className='items-center sm:flex justify-center'>
-				<TimeLineList
-					title='SMA 1, Ambon'
-					date='2014 - 2017'
-					desc='I have a regular times at high school, im not the brightest person in the class but im not the slowest either.'
-				/>
+			<ol className='sm:flex justify-center'>
 				<TimeLineList
 					title='Satya Wacana Christian University'
 					date='Enroled on August 1, 2017'
-					desc='I am a student of the Faculty of Information and Technology, majoring Informatics Engineering with the latest GPA of 3.3'
+					desc='I am a student of the Faculty of Information and Technology, majoring Informatics Engineering with the latest GPA of 3.05'
 				/>
 				<TimeLineList
-					title='KreasiX Internship'
+					title='PT. Telkom Witel Kupang – Nusa TenggaraTimur, Indonesia Internship'
 					date='May 5 - July 21, 2022'
-					desc='My first internship experience, one of the project i did during my internship was to build a backend for the company website using Node.js and Firebase'
+					desc='My first internship experience was quite enriching as I worked in two teams: Assurance and PSB. In the Assurance team, we were responsible for coordinating and supervising technicians in troubleshooting WiFi issues. Meanwhile, in the PSB team, our focus was on deploying new WiFi installations. This experience provided me with a deep understanding of team coordination and project management in a dynamic technological environment.'
 				/>
 				<TimeLineList
-					title='Refactory Bootcamp'
-					date='August 8 - September 18, 2022'
-					desc='A 7-week intensive bootcamp to implement my skills of web development using ReactJS and Go, i got an opportunity to work with a real work project and mentored by a great senior engineer.'
+					title='PT Angkasa Pura 1 El Tari International Airport Kupang – Nusa TenggaraTimur, Indonesia Internship'
+					date='August 8 - Desember 18, 2022'
+					desc='My second internship experience was with the Airport Technology division, where our responsibility was to manage and oversee the operation of technological systems at El Tari Airport in Kupang. This opportunity allowed me to implement what I had learned during my studies, particularly in configuring WiFi networks and CCTV systems (LAN). I also gained valuable experience in coordinating with teams to ensure smooth operations.'
+				/>
+				<TimeLineList
+					title='Universitas Kristen Satya Wacana, Assistant for RSNA 1 (CCNAv7: Introduction to Networks)'
+					date='September - Desember 2023'
+					desc='Being a Teaching Assistant for RSNA 1 (CCNAv7: Introduction to Networks) at Satya Wacana Christian University provided valuable experience in teaching fundamental network concepts such as OSI model, IP addressing, subnetting, routing, and switching. This role expanded my troubleshooting skills and prepared me for a career in information technology.'
 				/>
 			</ol>
 		</div>
 	</AnimatedSection>
 )
 const TimeLineList = ({ title, date, desc }: TimeLineList) => (
-	<li className='relative mb-6 sm:mb-0 h-36'>
+	<li className='relative mb-6 sm:mb-0 min-w-[300px]'>
 		<div className='flex items-center'>
 			<div className='z-10 flex items-center justify-center w-6 h-6 rounded-full bg-cyan-200 ring-0 ring-gray-200 dark:bg-cyan-900 sm:ring-8 dark:ring-gray-800 shrink-0'>
 				<svg
